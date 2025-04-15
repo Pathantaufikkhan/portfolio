@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 export default class AddressImg extends Component {
   render() {
-    const {theme} = this.props.theme;
+    const theme = this.props.theme;
     return (
       <svg
         id="aaafdec0-95c8-49a3-a8f8-64216c6da511"
