@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 export default class BlogsImg extends Component {
   render() {
-    const theme = this.props.theme;
+    const {theme} = this.props.theme;
     return (
       <svg
         id="b4ce20e6-8fe7-43d5-87f7-68602c562594"
